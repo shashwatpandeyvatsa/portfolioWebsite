@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <title>Portfolio Website</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" -->
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- naviation bar-->
+    <div class="container" id="navbar">
+      <div class="nav_section">
+        <div class="navbar navbar-expand-lg navbar-light">
+          <a href="#" class="navbar-brand text-white">
+            PORT<span>FOLIO</span>!
+          </a>
+          <button
+            class="navbar-toggler"
+            style="border: none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link"
+                  href="#hero"
+                  style="color: #f87652 !important"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#CV">CV</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contact_us">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+            <div id="particles-js"></div>
+            <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+            <script>
+                     particlesJS.load('particles-js', 'particles.json',
+                     function(){
+                         console.log('particles.json loaded...')
+                             })
+            </script>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/particles.js"></script>
+
+    <!-- hero section -->
+    <div class="hero_section" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <h3>Hello</h3>
+            <h1>I<span>'</span>M SHASHWAT PANDEY VATSA</h1>
+            <h2>
+              A BUDDING SOFTWARE ENGINEER FROM ITER, SOA, BHUBANESWAR, ODISHA
+            </h2>
+            <p>
+              I'm a senior B.TECH student pursuing COMPUTER SCIENCE &
+              ENGINEERING and I'm a result-oriented and self-motivated person looking for a challenging career where I can
+              implement my coding knowledge so that I can further enhance my
+              skills. Strong knowledge of HTML, CSS, Java, DBMS, Adobe After
+              Effects, Adobe Premiere Pro, Adobe Photoshop, Wondershare Filmora9
+              not just technical skills but I'm much more than that keep
+              scrolling through my portfolio to know more about me.
+            </p>
+            <div class="btn-container">
+            <form method="post" action="mailto:1941012918.q.shashwatpandeyvatsa@gmail.com?subject=Hiring mail &message=We are willing to Hire You">
+              <button class="btn btn-light animate__animated">Hire Me</button>
+            </form>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <center>
+              <div class="contain">
+              <a href="Images/pass pic.png" target="_blank">
+                <img src="images/hero-section.png" alt="profile_photo" id="dp" class="zoom" />
+              </a>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about_section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <h2 id="heading">Any type of question<br />& discussion</h2>
+            <div>
+              <h class="lets_talk">Let's Talk <span>---------</span></h>
+            </div>
+            <h4 id="info_gmail">1941012918.q.shashwatpandeyvatsa@gmail.com</h4>
+            <div class="contact_info">
+              <h5>Instagram: @sanskarishashwat</h5>
+              <h5>Facebook: Surge Shashwat</h5>
+              <h5>Whatsapp: +91 9386966969</h5>
+              <h5>Snapchat: surge_shashwat</h5>
+              <h5>
+                Linkdin: https://www.linkedin.com/in/shashwat-pandey-198269151/
+              </h5>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section"
+          >
+            <h2 id="heading">About Me</h2>
+            <hr />
+            <p id="txt">
+              To tell more about me I'm not a
+              clock watcher while work and I complete the work once committed. Apart from these
+              my hobbies are to play Flute, make animations, edit videos and photos and also work as an RJ in my 
+              University Community Radio having a frequency 90.4 and a range of 15-20kms. Also i love anchoring and 
+              organizing/managing events.
+            </p>
+            <table class="table">
+              <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>Shashwat Pandey Vatsa</td>
+              </tr>
+              <tr>
+                <td>Email ID</td>
+                <td>:</td>
+                <td>194101218.q.shashwatpandeyvatsa@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td>Shashwat Pandey Vatsa</td>
+              </tr>
+              <tr>
+                <td>name</td>
+                <td>:</td>
+                <td>www.portfolio.com</td>
+              </tr>
+            </table>
+        <form method="get" action="C:\Users\Shashwat Pandey\Desktop\Project Quarantine\Resume\final\Shashwat Pandey Vatsa_Resume.pdf" target="_blank">
+            <button class="btn btn-light btn-sm-animate_animated" id="CV">
+              Download CV
+            </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section-->
+    <div class="skills_section" id="skills">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 col-ms-12 col-xs-12 skills_section_left_section"
+          >
+            <h1 class="text-white" id="heading">My Skills <span>.</span></h1>
+            <hr />
+            <p>
+              Technically I have skill in areas such as Java, DSA, SQL, HTML, CSS and Python (Basics)
+              and I still have a long way to go in my journey of getting much more omniscient in these technical skills.
+              Apart from technical I have some soft skills as had been a part of various events and organizations where i 
+              contributed as a volunteer and also as a leader which taught me the skills of Teamwork and Leadership, but did not missed
+              my regular chores and other necessary daily events such as assignments, exams preparation, etc. which also taugh me another
+              important skills such as TIME MANAGEMENT and OUTCOMES FOCUSED LEADER I did failed couples of time in managing time but i didn't
+              gave up which proves my CONTINOUS IMPROVEMENT MINDSET and INTEGRITY AND HONESTY. Being a part of 90.4 SOA Radio made me a MEDIA COMMUNICATOR
+              and it also helped me grow my personality by talking to variety of people.
+            </p>
+            <div class="social_media_icons">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="#">HTML</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">CSS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Java</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">DBMS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Data Structure and Algorithm</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-ms-12 col-xs-12 skills_section_right_section"
+          >
+            <div>
+              <div class="each_skills">
+                <span>HTML5</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="each_skills">
+                <span>CSS</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="each_skills">
+                <span>Java</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="each_skills">
+                <span>DBMS</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 60%"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="each_skills">
+                <span>Data Structure and Algorithm</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 40%"
+                    aria-valuenow="40"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio section-->
+
+    <div class="portfoliosection" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+            <h1 class="text-white text-centre">My Portfolio <span>.</span></h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a
+                  class="nav-item nav-link active"
+                  id="nav-home-tab"
+                  data-toggle="tab"
+                  href="#nav-home"
+                  role="tab"
+                  aria-controls="nav-home"
+                  aria-selected="true"
+                  >Subject of Interest</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="nav-profile-tab"
+                  data-toggle="tab"
+                  href="#nav-profile"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                  >Hobbies</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  id="nav-profile-tab"
+                  data-toggle="tab"
+                  href="#nav-profile"
+                  role="tab"
+                  aria-controls="nav-profile"
+                  aria-selected="false"
+                  >Awards and Achievements</a
+                >
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+              >
+              <div class="card-column">
+                <div class="card border-0 padding-0">
+                    <img src="images/portfolio/html/html1.png" alt="" class="card-img img-fluid">
+                </div>
+                <div class="card border-0 padding-0">
+                    <img src="images/portfolio/html/html2.png" alt="" class="card-img img-fluid">
+                </div>
+                <div class="card border-0 padding-0">
+                    <img src="images/portfolio/html/html3.png" alt="" class="card-img img-fluid">
+                </div>
+                <div class="card border-0 padding-0">
+                    <img src="images/portfolio/html/html4.png" alt="" class="card-img img-fluid">
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab">
+                <div class="card-column">
+                    <div class="card border-0 padding-0">
+                        <img src="images/portfolio/wordpress/WordPress1.png" alt="" class="card-img img-fluid">
+                    </div>
+                    <div class="card border-0 padding-0">
+                        <img src="images/portfolio/wordpress/wordpress2.png" alt="" class="card-img img-fluid">
+                    </div>
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Us Section -->
+    <section class="contact-us" id="contact_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                        <p><b>You can contact me via the details given above or send me a mail here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <form action="mailto:1941012918.q.shashwatpandeyvatsa@gmail.com" class="mb-4 mb-lg-0" onsubmit="sendEmail(); reset(); return false;">
+                        <div class="form-row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light" id="contact_now">Contact Now</button>
+                    </form>
+                </div>
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script>
+                    function sendEmail(){
+                        Email.send({
+                            Host : "smtp.gmail.com",
+                            Username : "testmail.spv.09876543210@gmail.com",
+                            Password : "testmailspv",
+                            To : 'shashwatpandeyvatsa.official@gmail.com',
+                            From : document.getElementById("email").value,
+                            Subject : "New Contact Form Enquiry",
+                            Body : "Name: " + document.getElementById("name").value
+                                + "<br> Email: " + document.getElementById("email").value
+                                + "<br> Message: " + document.getElementById("message").value,
+                        }).then(
+                        message => alert("Message sent successfully")
+                        );
+                    }
+                </script>
+                <div class="col-lg-5">
+                    <div class="map">
+                        <iframe src="https://maps.google.com/maps?q=Bhubaneswar&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="350" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <!-- src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571289.733943155!2d76.08560099999998!3d29.058775699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e4a4b98404f57%3A0x75ffae70833e8448!2sShahbad%2C%20Haryana%20136135!5e0!3m2!1sen!2sin!4v1594195370933!5m2!1sen!2sin" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Us Section -->
+
+
+    <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/in/shashwat-pandey-198269151/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="#hero">PORTFOLIO! is a demo project page</a></u> is created by Shashwat Pandey Vatsa to show his skills and projects he made till now and apply for companies.</p>
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">SHASHWAT PANDEY VATSA</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+  </body>
+</html>
